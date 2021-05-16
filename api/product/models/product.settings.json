@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "ProductID": {
+      "type": "integer"
+    }
+  }
+}
